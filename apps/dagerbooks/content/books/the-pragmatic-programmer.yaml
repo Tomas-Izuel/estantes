@@ -27,6 +27,11 @@ sources:
     title: "NO LEAS ESTE LIBRO. #algoritmo #programacion #fyp"
     timestamp: "0:05"
     quote: "si ya tenés trabajo y querés mejorar como profesional de Pragmic Programmer. Tiene que ser sí o sí la edición del 20 aniversario"
+  - url: "https://www.youtube.com/watch?v=zCu3ZHG8UP0&t=11649s"
+    title: "1 MARXISTA VS. 5 LIBERTARIOS (y otras cosas) | !discord !falopa !links"
+    timestamp: "3:14:09"
+    quote: "es una frase de de Pragmatic Programmer, si no me, si mal lo recuerdo, está en The Pragmatic Programmer. Es tremendo libro, muy lindo libro. La edición del 20 aniversario no tiene desperdicio"
+    stance: "recommends"
 leadsTo: ["refactoring"]
 isbn: "9780201616224"
 asin:

@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=../book.schema.json
+
+id: the-c-programming-language
+seq: 206
+title: "The C Programming Language"
+titleEs: "El lenguaje de programación C"
+authors: ["Brian W. Kernighan", "Dennis M. Ritchie"]
+year: 1978
+kind: book
+topics: ["fundamentos"]
+level: 2
+recommendation: interesante
+summary: "El libro de los creadores de C: un recorrido breve y preciso por el lenguaje, de tipos, punteros y memoria a la biblioteca estándar y la interfaz con UNIX."
+context: "Lo ve en el posteo de alguien que se puso a aprender C desde las bases y lo celebra: «la Biblia» de Ritchie y Kernighan, «qué lindo libro», menudito, sobre una de las herramientas más poderosas de la historia de la programación."
+sources:
+  - url: "https://www.youtube.com/watch?v=zaZTxzJuER0&t=15673s"
+    title: "MUNIPAS VS GORDOS COMPU (y otras cosas) | !discord !falopa !links"
+    timestamp: "4:21:13"
+    quote: "un hermoso libro, el famoso The Sea Programming Language, la Biblia de Richi y Caran"
+    stance: "recommends"
+  - url: "https://www.youtube.com/watch?v=zaZTxzJuER0&t=15687s"
+    title: "MUNIPAS VS GORDOS COMPU (y otras cosas) | !discord !falopa !links"
+    timestamp: "4:21:27"
+    quote: "Qué qué lindo libro, ¿eh? Libro menudito, una de las herramientas más poderosas de la historia de la programación"
+    stance: "recommends"
+isbn: "9780131103627"
+asin:
+  es: "9688802050"
+coverId: 6684943

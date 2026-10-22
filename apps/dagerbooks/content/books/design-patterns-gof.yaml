@@ -19,6 +19,11 @@ sources:
   - url: "https://github.com/MarianoVilla/MarianoVilla/blob/main/README.md"
     title: "GitHub: MarianoVilla/MarianoVilla README (Recommended Readings)"
     quote: "Design Patterns - The famous \"Gang of Four\" book."
+  - url: "https://www.youtube.com/watch?v=zaZTxzJuER0&t=6330s"
+    title: "MUNIPAS VS GORDOS COMPU (y otras cosas) | !discord !falopa !links"
+    timestamp: "1:45:30"
+    quote: "con un montón de de patrones eh de cada una de las categorías que representa que presenta gang of"
+    stance: "mentions"
 leadsTo: ["domain-driven-design"]
 isbn: "9780201633610"
 asin:

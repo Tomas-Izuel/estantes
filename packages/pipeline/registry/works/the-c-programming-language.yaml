@@ -1,0 +1,15 @@
+id: the-c-programming-language
+title: The C Programming Language
+authors:
+  - Brian W. Kernighan
+  - Dennis M. Ritchie
+year: 1978
+kind: book
+openLibrary:
+  work: /works/OL4617640W
+  coverId: 6684943
+editions:
+  - isbn: "9780131103627"
+asin:
+  es: "9688802050"
+titleEs: El lenguaje de programación C
