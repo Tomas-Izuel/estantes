@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=../update.schema.json
+
+id: 2026-10-22-libros
+date: 2026-10-22
+title: "Tres libros de los últimos streams"
+books:
+  - money-galbraith
+  - the-voluntary-city
+  - the-c-programming-language
+improvements:
+  - "El dinero de Galbraith, que Dager recomienda para entender de dónde sale la plata y cómo la crean los bancos."
+  - "K&R, «la Biblia» de C, ahora es un paso de la ruta para entender cómo funciona una computadora."
+  - "The Voluntary City, el libro que Dager está empezando a leer sobre servicios que resuelven los vecinos sin el Estado."
+  - "Sumamos citas con minuto exacto de los dos streams a 19 libros que ya estaban."
