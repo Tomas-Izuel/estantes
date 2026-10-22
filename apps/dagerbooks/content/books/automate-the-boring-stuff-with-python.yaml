@@ -23,6 +23,7 @@ leadsTo:
       severity: fuerte
       bridge: ["JavaScript y Node.js", "criptografía de clave pública y hashes"]
       note: "Pasás de Python a JavaScript y a cripto aplicada; conviene llegar con esas dos cosas vistas."
+  - the-c-programming-language
 isbn: "9781593275990"
 asin:
   es: "1593275994"

@@ -28,6 +28,13 @@ sources:
     timestamp: "2:04:30"
     quote: "explica cómo los bancos crean dinero. Tiene una de las explicaciones más claras de cómo los bancos crean dinero"
     stance: "recommends"
+leadsTo:
+  - id: the-general-theory
+    gap:
+      severity: fuerte
+      bridge: ["ley de Say y teoría clásica", "salario real y desempleo en el modelo clásico", "demanda agregada y multiplicador", "ahorro, inversión y tasa de interés"]
+      note: "Galbraith te cuenta la revolución keynesiana; Keynes se pelea con los clásicos y da por sabido qué decían."
+  - wealth-of-nations
 isbn: "9780735100701"
 asin:
   es: "0735100705"

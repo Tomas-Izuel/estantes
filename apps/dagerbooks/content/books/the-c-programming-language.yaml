@@ -23,6 +23,13 @@ sources:
     timestamp: "4:21:27"
     quote: "Qué qué lindo libro, ¿eh? Libro menudito, una de las herramientas más poderosas de la historia de la programación"
     stance: "recommends"
+leadsTo:
+  - operating-systems-three-easy-pieces
+  - id: crafting-interpreters
+    gap:
+      severity: fuerte
+      bridge: ["programación orientada a objetos: clases, herencia e interfaces", "Java básico: colecciones y genéricos"]
+      note: "La parte en C te va a resultar casa; la de Java, que viene primero, te pide manejarte con objetos."
 isbn: "9780131103627"
 asin:
   es: "9688802050"
