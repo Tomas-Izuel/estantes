@@ -22,6 +22,21 @@ sources:
     title: "Superficial knowledge is holding you back."
     timestamp: "0:08"
     quote: "Refactoring Guru. Tiene un libro que está bueno sobre eso"
+  - url: "https://www.youtube.com/watch?v=zaZTxzJuER0&t=6400s"
+    title: "MUNIPAS VS GORDOS COMPU (y otras cosas) | !discord !falopa !links"
+    timestamp: "1:46:40"
+    quote: "Si si querés también te recomiendo, siempre lo recomiendo, Refactoring Gurú."
+    stance: "recommends"
+  - url: "https://www.youtube.com/watch?v=zaZTxzJuER0&t=6408s"
+    title: "MUNIPAS VS GORDOS COMPU (y otras cosas) | !discord !falopa !links"
+    timestamp: "1:46:48"
+    quote: "Este sitio, los libros también están buenos."
+    stance: "recommends"
+  - url: "https://www.youtube.com/watch?v=zaZTxzJuER0&t=6481s"
+    title: "MUNIPAS VS GORDOS COMPU (y otras cosas) | !discord !falopa !links"
+    timestamp: "1:48:01"
+    quote: "este sitio es muy bueno para cada uno de los de los patrones"
+    stance: "recommends"
 leadsTo: ["head-first-design-patterns", "fundamentals-of-software-architecture", "refactoring"]
 coverId: 12941546
 asin:

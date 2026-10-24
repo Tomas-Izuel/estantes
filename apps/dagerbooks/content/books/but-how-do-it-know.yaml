@@ -24,6 +24,11 @@ sources:
     timestamp: "0:08"
     quote: "comienza el clásico But how do you know? Pero, ¿cómo sabe? Un libro que intenta achicar el espacio entre las cosas fleras que puede hacer una computadora"
 leadsTo:
+  - id: the-c-programming-language
+    gap:
+      severity: fuerte
+      bridge: ["variables, condicionales, bucles y funciones en algún lenguaje", "compilar y correr un programa desde la terminal"]
+      note: "K&R arranca con «hello, world», pero da por hecho que ya programaste algo antes."
   - id: operating-systems-three-easy-pieces
     gap:
       severity: fuerte

@@ -229,8 +229,8 @@
   name: "Entender cómo funciona una computadora"
   kind: objetivo
   line: fundamentos
-  promise: "Al final vas a poder explicar cómo se pasa de números binarios y compuertas lógicas a una CPU y a un sistema operativo."
-  summary: "Arranca por el binario, arma una computadora entera desde la compuerta NAND y termina en cómo un sistema operativo reparte CPU y memoria. Para quien quiere ver qué hay debajo del código que escribe. Pide algo de C en el último tramo."
+  promise: "Al final vas a poder explicar cómo se pasa del binario y las compuertas lógicas a una CPU y a un sistema operativo, y leer código en C."
+  summary: "Arranca por el binario, arma una computadora entera desde la compuerta NAND, pasa a C para manejar punteros y memoria a mano y termina en cómo un sistema operativo reparte CPU y memoria. Para quien quiere ver qué hay debajo del código que escribe."
   steps:
     - book: mathematics-for-programmers-barden
       why: "Sistemas de numeración y aritmética binaria, el piso que necesitás para entender lo que hace una compuerta."
@@ -242,13 +242,10 @@
       optional: true
       why: "Desvío histórico: de dónde sale la lógica verdadero/falso que viste hecha compuertas. Dager lo cita en su video sobre el binario."
       source: 0
+    - book: the-c-programming-language
+      why: "De la CPU al código: en C manejás la memoria a mano (punteros, arrays, strings como arrays de char), lo que OSTEP da por sabido. Dager lo llama «la Biblia»."
+      source: 0
     - book: operating-systems-three-easy-pieces
-      gap:
-        severity: fuerte
-        bridge:
-          - "lenguaje C y punteros"
-          - "uso de la terminal Unix"
-        note: "Los ejemplos de OSTEP están en C; si no lo leés, te trabás en el primer capítulo de código."
       why: "Ya sabés qué es una CPU; acá ves cómo un sistema operativo la virtualiza, coordina procesos y guarda datos."
       source: 0
 

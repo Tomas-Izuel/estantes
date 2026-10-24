@@ -1,0 +1,41 @@
+# yaml-language-server: $schema=../book.schema.json
+
+id: money-galbraith
+seq: 204
+title: "Money: Whence It Came, Where It Went"
+titleEs: "El dinero"
+authors: ["John Kenneth Galbraith"]
+year: 1975
+kind: book
+topics: ["economia", "historia"]
+level: 1
+recommendation: fuerte
+summary: "Historia del dinero contada por Galbraith para el lector general: de las primeras monedas y los bancos a la inflación y las crisis del siglo XX."
+context: "Lo recomienda mucho cuando en un debate sale si la moneda nace con el Estado: «muy lindo libro sobre la historia del dinero», lleno de ejemplos, y con una de las explicaciones más claras de cómo los bancos crean dinero."
+sources:
+  - url: "https://www.youtube.com/watch?v=zCu3ZHG8UP0&t=7375s"
+    title: "1 MARXISTA VS. 5 LIBERTARIOS (y otras cosas) | !discord !falopa !links"
+    timestamp: "2:02:55"
+    quote: "les recomiendo mucho el libro de ... creo llama el dinero, ¿no? De Kenneth Galbit"
+    stance: "recommends"
+  - url: "https://www.youtube.com/watch?v=zCu3ZHG8UP0&t=7397s"
+    title: "1 MARXISTA VS. 5 LIBERTARIOS (y otras cosas) | !discord !falopa !links"
+    timestamp: "2:03:17"
+    quote: "este libro, muy lindo libro sobre la historia del dinero y tiene numerosísimos ejemplos sobre el dinero"
+    stance: "recommends"
+  - url: "https://www.youtube.com/watch?v=zCu3ZHG8UP0&t=7470s"
+    title: "1 MARXISTA VS. 5 LIBERTARIOS (y otras cosas) | !discord !falopa !links"
+    timestamp: "2:04:30"
+    quote: "explica cómo los bancos crean dinero. Tiene una de las explicaciones más claras de cómo los bancos crean dinero"
+    stance: "recommends"
+leadsTo:
+  - id: the-general-theory
+    gap:
+      severity: fuerte
+      bridge: ["ley de Say y teoría clásica", "salario real y desempleo en el modelo clásico", "demanda agregada y multiplicador", "ahorro, inversión y tasa de interés"]
+      note: "Galbraith te cuenta la revolución keynesiana; Keynes se pelea con los clásicos y da por sabido qué decían."
+  - wealth-of-nations
+isbn: "9780735100701"
+asin:
+  es: "0735100705"
+coverId: 4616304

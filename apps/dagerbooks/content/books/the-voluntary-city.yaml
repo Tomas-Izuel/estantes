@@ -1,0 +1,39 @@
+# yaml-language-server: $schema=../book.schema.json
+
+id: the-voluntary-city
+seq: 205
+title: "The Voluntary City"
+authors: ["David T. Beito", "Peter Gordon", "Alexander Tabarrok"]
+year: 2002
+kind: book
+topics: ["economia", "historia"]
+level: 2
+recommendation: mencion
+summary: "Compilación de estudios sobre servicios urbanos que suelen asignarse al Estado o al municipio y que, en casos históricos y actuales, resolvieron privados y la organización voluntaria de los vecinos."
+context: "Lo está empezando a leer y lo trae a cuento con un plan de privatización municipal: lo presenta como un libro de casos y repasa su primer planteo, que el Estado es ineficiente porque no tiene la información local. Coincide en que muchas cosas de la convivencia entre vecinos se pueden resolver de forma privada y espontánea."
+sources:
+  - url: "https://www.youtube.com/watch?v=zaZTxzJuER0&t=4503s"
+    title: "MUNIPAS VS GORDOS COMPU (y otras cosas) | !discord !falopa !links"
+    timestamp: "1:15:03"
+    quote: "justo estos días empecé a leer este libro"
+    stance: "mentions"
+  - url: "https://www.youtube.com/watch?v=zaZTxzJuER0&t=4521s"
+    title: "MUNIPAS VS GORDOS COMPU (y otras cosas) | !discord !falopa !links"
+    timestamp: "1:15:21"
+    quote: "The Wery City, que es un libro acerca de distintos experimentos, distintos casos"
+    stance: "mentions"
+  - url: "https://www.youtube.com/watch?v=zaZTxzJuER0&t=4564s"
+    title: "MUNIPAS VS GORDOS COMPU (y otras cosas) | !discord !falopa !links"
+    timestamp: "1:16:04"
+    quote: "Yo creo que hay un montón de cosas que podemos resolver de forma privada y espontánea que tienen que ver con la convivencia de, no sé, un grupo de vecinos"
+    stance: "mentions"
+  - url: "https://www.youtube.com/watch?v=zaZTxzJuER0&t=4715s"
+    title: "MUNIPAS VS GORDOS COMPU (y otras cosas) | !discord !falopa !links"
+    timestamp: "1:18:35"
+    quote: "una de las primeras preguntas que hace este libro, una de los primeros planteos que hace este libro es generalmente eh el argumento es que el estado suele ser bastante ineficiente para hacer la mayoría de las cosas porque el conocimiento centralizado, la distancia de la información local y demás hacen que sea muy difícil que dé cualquier clase de servicio de la forma más eficiente posible"
+    stance: "mentions"
+leadsTo: ["democracy-the-god-that-failed", "democracy-in-america"]
+isbn: "9780472112401"
+asin:
+  es: "0472112406"
+coverId: 5398785

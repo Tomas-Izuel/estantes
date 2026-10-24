@@ -1,0 +1,14 @@
+id: money-galbraith
+title: "Money: Whence It Came, Where It Went"
+authors:
+  - John Kenneth Galbraith
+year: 1975
+kind: book
+openLibrary:
+  work: /works/OL12558W
+  coverId: 4616304
+editions:
+  - isbn: "9780735100701"
+asin:
+  es: "0735100705"
+titleEs: El dinero
