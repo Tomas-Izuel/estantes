@@ -161,21 +161,29 @@ export function computeSubwayLayout(catalog: SubwayCatalog, partial: Partial<Sub
   const VARIANTS = 24;
   const plans: BandPlan[] = topics.map((t, index) => {
     let best: BandPlan | null = null;
-    for (let v = 0; v < VARIANTS; v++) {
-      let plan: BandPlan;
-      try {
-        plan = planBand(t.id, index, v);
-      } catch (err) {
-        if (v === VARIANTS - 1 && !best) throw err;
-        continue;
+    let failure: unknown = null;
+    // Primero el orden clásico (bifurcaciones tempranas pegadas al tronco). Si ninguna variante entra
+    // —una rama profunda se encierra entre hermanos que ya ocupan los carriles contiguos—, se repite
+    // con las bifurcaciones anidadas: las más profundas toman los carriles cercanos.
+    for (const nested of [false, true]) {
+      for (let v = 0; v < VARIANTS; v++) {
+        let plan: BandPlan;
+        try {
+          plan = planBand(t.id, index, v, nested);
+        } catch (err) {
+          failure = err;
+          continue;
+        }
+        if (!best || plan.score < best.score) best = plan;
+        if (best.score < 1000) break; // sin cruces forzados: no hace falta seguir
       }
-      if (!best || plan.score < best.score) best = plan;
-      if (best.score < 1000) break; // sin cruces forzados: no hace falta seguir
+      if (best) break;
     }
-    return best!;
+    if (!best) throw failure;
+    return best;
   });
 
-  function planBand(topicId: string, index: number, variant: number): BandPlan {
+  function planBand(topicId: string, index: number, variant: number, nested: boolean): BandPlan {
     const members = books.filter((b) => b.level >= 1 && b.primaryTopic === topicId);
     const nodes = new Map<string, BNode>();
     for (const b of members) {
@@ -367,7 +375,9 @@ export function computeSubwayLayout(catalog: SubwayCatalog, partial: Partial<Sub
         n.placed = true;
         n.chain = head.id;
       }
-      for (const n of chain) {
+      // Con `nested`, las bifurcaciones de los nodos más profundos van primero: su diagonal cruza los
+      // carriles contiguos en una ranura alta, que las ramas tempranas (ranura baja) no ocupan.
+      for (const n of nested ? [...chain].reverse() : chain) {
         n.kids.slice(1).forEach((cid, i) => {
           if (!ok) return;
           const kid = nodes.get(cid)!;
