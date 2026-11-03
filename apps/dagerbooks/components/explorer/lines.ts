@@ -1,4 +1,4 @@
-/** Line identity by topic id, in the sector order of content/topics.yaml. Colors come from tokens.css. */
+/** Line identity by topic id, in the sector order of content/topics.yaml (A–L). Colors come from tokens.css. */
 const ORDER = [
   "fundamentos",
   "matematicas",
@@ -10,6 +10,8 @@ const ORDER = [
   "startups",
   "oficio",
   "arquitectura",
+  "ia",
+  "ficcion",
 ] as const;
 
 export function lineFor(topicId: string | null): { letter: string; color: string } {

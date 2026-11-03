@@ -151,7 +151,9 @@ export function placeSubwayLabels({
     else if (selection?.unlocks.has(n.id)) prio = 3;
     else if (n.entry && tone !== "dim" && rel >= sc.entryAt) prio = 4;
     else {
-      const threshold = (LABEL_MIN_REL[n.level] ?? 2) * sc.labelMul * (topicActive && tone === "full" ? 0.5 : 1);
+      // With a line chosen the whole line is on screen and meant to be read: every station of it is a
+      // candidate and the collision pass below (lowest levels first) decides which names fit.
+      const threshold = topicActive && tone === "full" ? 0 : (LABEL_MIN_REL[n.level] ?? 2) * sc.labelMul;
       if (tone === "dim" || rel < threshold) continue;
     }
     // Two lines and the full title for the selected and hovered stations and everything in a line's focus.
