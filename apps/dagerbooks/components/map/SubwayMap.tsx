@@ -15,6 +15,7 @@ import { useMapView } from "@/hooks/useMapView";
 import { useGraphKeyboard } from "@/hooks/useGraphKeyboard";
 import type { PanZoomApi } from "@/hooks/usePanZoom";
 import { lineColor } from "@/lib/design/lines";
+import { Overview } from "./subway/Overview";
 import type { ExplorerNode, Selection } from "@/lib/state/explorer";
 import type { LayoutEdge } from "@/lib/catalog/layout.types";
 import type { NavNode } from "@/lib/graph-interaction";
@@ -82,6 +83,8 @@ const NARROW_PX = 700;
 /** Reading zoom of a single line on a phone. */
 const FOCUS_NARROW_K = 0.85;
 const MAX_ZOOM = 3;
+/** Under this viewport height the overview would run into the view sign above it, so it is not drawn. */
+const OVERVIEW_MIN_H = 620;
 const NAME_PX = 11;
 const NAME_CH = 7.9;
 const NAME_LINE = 13;
@@ -110,7 +113,12 @@ interface Frame {
 function frameOf(view: SubwayGeometry, panBounds: Bounds4, vw: number, vh: number, focused: boolean, safeTop = 0, safeRight = 0): Frame {
   const narrow = vw < NARROW_PX;
   const contain = fitScale(panBounds, { width: vw, height: vh });
-  if (focused && !narrow) return { k: contain, topLeft: null };
+  if (focused && !narrow) {
+    // Same free area and zoom cap as `fitToBounds` (see `focusReserve`), so this k is the zoom the map really lands on.
+    const r = focusReserve(safeTop, safeRight, true) ?? {};
+    const free = { width: Math.max(vw - (r.right ?? 0), 1), height: Math.max(vh - (r.top ?? 0) - (r.bottom ?? 0), 1) };
+    return { k: Math.min(fitScale(panBounds, free), MAX_ZOOM), topLeft: null };
+  }
   const first = view.bands[0];
   if (narrow) {
     const z2 = view.zones[Math.min(1, view.zones.length - 1)];
@@ -123,6 +131,12 @@ function frameOf(view: SubwayGeometry, panBounds: Bounds4, vw: number, vh: numbe
   // Desktop: the width left of the sign, so no band end sits under it.
   const k = Math.max(Math.max(vw - safeRight, 1) / (panBounds.x1 - panBounds.x0), contain);
   return { k, topLeft: { x: panBounds.x0, y: panBounds.y0 } };
+}
+
+/** Screen area the controls cover; `fitToBounds` frames the map in what is left. A single line also clears the focus bar and the links. */
+function focusReserve(safeTop: number, safeRight: number, focused: boolean): { right?: number; top?: number; bottom?: number } | undefined {
+  if (safeTop !== 0) return undefined;
+  return focused ? { top: 78, bottom: 72, right: safeRight } : { right: safeRight };
 }
 
 interface Bounds4 {
@@ -367,7 +381,7 @@ export function SubwayMap({
     reset,
     maxZoom: MAX_ZOOM,
     // A single line on desktop is fitted whole: keep it clear of the focus bar above and the links below.
-    reserve: safeTop === 0 ? (focus ? { top: 78, bottom: 72, right: safeRight } : { right: safeRight }) : undefined,
+    reserve: focusReserve(safeTop, safeRight, !!focus),
   });
   const { transform: tf } = pan;
 
@@ -679,7 +693,7 @@ export function SubwayMap({
             {full.edges.map((e) => renderTrack(e, fullById))}
           </g>
           {focusLayer ? (
-            <g key={focusLayer.topicId} className={base.layer} data-on={focus ? "true" : "false"} aria-hidden="true">
+            <g key={`layer-${focusLayer.topicId}`} className={base.layer} data-on={focus ? "true" : "false"} aria-hidden="true">
               {focusLayer.geometry.edges.map((e) => renderTrack(e, focus ? nodeById : lastById))}
             </g>
           ) : null}
@@ -702,7 +716,7 @@ export function SubwayMap({
 
           {/* The train run: prerequisites drawn from KM 0, segment by segment */}
           {route ? (
-            <g key={selection?.id} aria-hidden="true">
+            <g key={`route-${selection?.id}`} aria-hidden="true">
               {route.run.map(({ edge, index }) => {
                 const gap = gaps.get(edgeKey(edge));
                 if (gap) {
@@ -775,7 +789,7 @@ export function SubwayMap({
           </g>
 
           {/* Keyed by mode: the labels of a new layout fade in once the stations have arrived. */}
-          <g key={focusKey ?? "all"} className={base.late}>
+          <g key={`late-${focusKey ?? "all"}`} className={base.late}>
             <StationLabels labels={labels} k={k} ls={ls} />
             <InterchangeTags tags={tags} k={k} scale={tagScale} />
           </g>
@@ -923,6 +937,21 @@ export function SubwayMap({
           </span>
         </p>
       </MapLegend>
+
+      {!focus && !narrow && vp.height >= OVERVIEW_MIN_H ? (
+        <Overview
+          bands={full.bands}
+          stations={full.nodes}
+          bounds={full.bounds}
+          tf={tf}
+          viewport={vp}
+          maxHeight={clamp(vp.height - 540, 90, 300)}
+          letterOf={(id) => lineByTopic.get(id)?.letter}
+          nameOf={(id) => lineByTopic.get(id)?.name}
+          onJump={(x, y, instant) => pan.centerOn(x, y, undefined, instant)}
+          parked={!!insets?.right}
+        />
+      ) : null}
 
       {hoveredNode ? (
         <HoverTag
