@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=../update.schema.json
+
+id: 2026-11-03-subte
+date: 2026-11-03
+title: "El subte vuelve a andar, y ahora te ubicás"
+improvements:
+  - "La vista Subte se había roto y no abría: ya funciona de nuevo con todas las líneas."
+  - "Cuando elegís una línea, ahora cada estación muestra el nombre del libro."
+  - "Nuevo plano en miniatura: ves dónde estás en la red y tocás para saltar a otra línea."
+  - "Los libros de IA y Ficción vuelven a mostrar su letra y su color en el buscador y en el panel."
