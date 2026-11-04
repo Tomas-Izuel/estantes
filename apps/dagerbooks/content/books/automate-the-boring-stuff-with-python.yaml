@@ -24,6 +24,12 @@ leadsTo:
       bridge: ["JavaScript y Node.js", "criptografía de clave pública y hashes"]
       note: "Pasás de Python a JavaScript y a cripto aplicada; conviene llegar con esas dos cosas vistas."
   - the-c-programming-language
+  - javascript-the-definitive-guide
+  - id: javascript-the-good-parts
+    gap:
+      severity: fuerte
+      bridge: ["sintaxis básica de JavaScript: variables, funciones y objetos", "closures y alcance (scope)", "herencia por prototipos"]
+      note: "Es cortito pero no es para principiantes: conviene llegar sabiendo algo de JavaScript."
 isbn: "9781593275990"
 asin:
   es: "1593275994"
