@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=../book.schema.json
+
+id: javascript-the-definitive-guide
+seq: 209
+title: "JavaScript: The Definitive Guide"
+titleEs: "JavaScript: la guía definitiva"
+authors: ["David Flanagan"]
+year: 1996
+kind: book
+topics: ["fundamentos"]
+level: 2
+recommendation: interesante
+summary: "Guía de referencia de JavaScript de David Flanagan, conocida como el libro del rinoceronte, que recorre el lenguaje y sus APIs en detalle."
+context: "Lo nombra entre los dos libros famosos de JavaScript que recomienda y es el que dice que le gustó bastante."
+sources:
+  - url: "https://www.youtube.com/watch?v=Ckac17_43gM&t=1523s"
+    title: "Cómo un lenguaje creado en 10 días ATRAPÓ a toda la humanidad | Reacción"
+    timestamp: "25:23"
+    quote: "Hay dos libros famosos de JavaScript que les recomiendo. Está JS, no me acuerdo cómo se llama, el libro del rinoceronte."
+    stance: "recommends"
+  - url: "https://www.youtube.com/watch?v=Ckac17_43gM&t=1542s"
+    title: "Cómo un lenguaje creado en 10 días ATRAPÓ a toda la humanidad | Reacción"
+    timestamp: "25:42"
+    quote: "Los dos, el del rinoceronte me me gustó bastante, de hecho."
+    stance: "recommends"
+isbn: "9788441522022"
+asin:
+  es: "8441522022"
+coverId: 13955144

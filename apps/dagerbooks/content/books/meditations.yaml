@@ -28,6 +28,16 @@ sources:
     title: "No sos tan productivo como pensas."
     timestamp: "42:12"
     quote: "prefiero 100 veces un un Marco Aurelio Bro, meditaciones, bro, antes que una persona doer que no hace nada con su vida"
+  - url: "https://www.youtube.com/watch?v=0oRiAcR1cg0&t=171s"
+    title: "ESTO LO CAMBIA TODO (y otras cosas) | !discord !falopa !links"
+    timestamp: "2:51"
+    quote: "se reeditaron las meditaciones de Marco Aurelio"
+    stance: "mentions"
+  - url: "https://www.youtube.com/watch?v=0oRiAcR1cg0&t=1120s"
+    title: "ESTO LO CAMBIA TODO (y otras cosas) | !discord !falopa !links"
+    timestamp: "18:40"
+    quote: "las meditaciones de Marco"
+    stance: "mentions"
 leadsTo: ["discourses-and-enchiridion", "confessions-augustine"]
 related:
   - id: mans-search-for-meaning

@@ -1,0 +1,28 @@
+# yaml-language-server: $schema=../book.schema.json
+
+id: javascript-the-good-parts
+seq: 210
+title: "JavaScript: The Good Parts"
+authors: ["Douglas Crockford"]
+year: 2008
+kind: book
+topics: ["fundamentos"]
+level: 2
+recommendation: interesante
+summary: "Libro corto de Douglas Crockford que separa las partes buenas de JavaScript de las problemáticas y propone quedarse con las buenas."
+context: "Lo recomienda junto al del rinoceronte como el otro libro famoso de JavaScript (\"el de la mariposa\"), pero no cuenta nada más sobre él."
+sources:
+  - url: "https://www.youtube.com/watch?v=Ckac17_43gM&t=1523s"
+    title: "Cómo un lenguaje creado en 10 días ATRAPÓ a toda la humanidad | Reacción"
+    timestamp: "25:23"
+    quote: "Hay dos libros famosos de JavaScript que les recomiendo."
+    stance: "recommends"
+  - url: "https://www.youtube.com/watch?v=Ckac17_43gM&t=1536s"
+    title: "Cómo un lenguaje creado en 10 días ATRAPÓ a toda la humanidad | Reacción"
+    timestamp: "25:36"
+    quote: "y después tenés el de la mariposa, JavaScript The Good Parts."
+    stance: "recommends"
+isbn: "9780596517748"
+asin:
+  es: "0596517742"
+coverId: 2536428

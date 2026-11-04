@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=../book.schema.json
+
+id: animal-farm
+seq: 208
+title: "Animal Farm"
+titleEs: "Rebelión en la granja"
+authors: ["George Orwell"]
+year: 1945
+kind: book
+topics: ["ficcion"]
+level: 1
+recommendation: interesante
+summary: "Fábula satírica de Orwell en la que los animales de una granja expulsan al dueño humano y su revolución termina en una nueva tiranía."
+context: "Dice que está muy bien, \"un librazo, un clásico\", aunque 1984 le gustó más."
+sources:
+  - url: "https://www.youtube.com/watch?v=3iZ1dX8ihqU&t=2328s"
+    title: "ESTO LO CAMBIA TODO (y otras cosas) | !discord !falopa !links"
+    timestamp: "0:38:48"
+    quote: "está muy bien. Es un librazo, un clásico, ¿no?"
+    stance: "recommends"
+isbn: "9788499890951"
+asin:
+  es: "8499890954"
+coverId: 12387858

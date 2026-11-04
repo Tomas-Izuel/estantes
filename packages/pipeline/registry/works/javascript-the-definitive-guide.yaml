@@ -1,0 +1,14 @@
+id: javascript-the-definitive-guide
+title: "JavaScript: The Definitive Guide"
+authors:
+  - David Flanagan
+year: 1996
+kind: book
+openLibrary:
+  work: /works/OL1643770W
+  coverId: 13955144
+editions:
+  - isbn: "9788441522022"
+asin:
+  es: "8441522022"
+titleEs: "JavaScript: la guía definitiva"

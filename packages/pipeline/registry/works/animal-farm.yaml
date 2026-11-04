@@ -1,0 +1,14 @@
+id: animal-farm
+title: Animal Farm
+authors:
+  - George Orwell
+year: 1945
+kind: book
+openLibrary:
+  work: /works/OL1168007W
+  coverId: 12387858
+editions:
+  - isbn: "9788499890951"
+asin:
+  es: "8499890954"
+titleEs: Rebelión en la granja

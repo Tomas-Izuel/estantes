@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../update.schema.json
+
+id: 2026-11-04-libros
+date: 2026-11-04
+title: "Cuatro libros nuevos: Orwell y los dos de JavaScript"
+books:
+  - "1984"
+  - animal-farm
+  - javascript-the-definitive-guide
+  - javascript-the-good-parts
+improvements:
+  - "Entran 1984 y Rebelión en la granja, con lo que Dager contó de cada uno en el stream."
+  - "Sumamos los dos libros famosos de JavaScript que Dager recomienda: la guía definitiva y The Good Parts."
+  - "Los de JavaScript cuelgan de Automate the Boring Stuff with Python, en la línea Fundamentos."
+  - "Citas nuevas de Dager en Suspicious Minds, Meditations y From Mutual Aid to the Welfare State."

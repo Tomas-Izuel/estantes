@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=../book.schema.json
+
+id: "1984"
+seq: 207
+title: "1984"
+titleEs: "1984"
+authors: ["George Orwell"]
+year: 1949
+kind: book
+topics: ["ficcion"]
+level: 1
+recommendation: interesante
+summary: "Novela distópica de Orwell sobre un Estado totalitario que vigila y controla hasta el pensamiento y el lenguaje de sus ciudadanos."
+context: "Le gustó más que Rebelión en la granja: dice que le parece fascinante y, sin spoilear, que la segunda mitad le pareció todavía más interesante que la primera."
+sources:
+  - url: "https://www.youtube.com/watch?v=3iZ1dX8ihqU&t=2322s"
+    title: "ESTO LO CAMBIA TODO (y otras cosas) | !discord !falopa !links"
+    timestamp: "0:38:42"
+    quote: "1984 a mí me gustó más."
+    stance: "recommends"
+  - url: "https://www.youtube.com/watch?v=3iZ1dX8ihqU&t=2330s"
+    title: "ESTO LO CAMBIA TODO (y otras cosas) | !discord !falopa !links"
+    timestamp: "0:38:50"
+    quote: "Pero 1984 para mí es fascinante, sobre todo cuando, no te lo voy a spoilear, pero cuando va la segunda mitad del libro me pareció todavía más interesante que la primera."
+    stance: "recommends"
+isbn: "9788499890944"
+asin:
+  es: "8499890946"
+coverId: 8495146
