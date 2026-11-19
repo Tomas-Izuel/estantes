@@ -1,0 +1,9 @@
+# yaml-language-server: $schema=../update.schema.json
+
+id: 2026-11-19-citas
+date: 2026-11-19
+title: "Citas nuevas de los últimos cinco streams"
+improvements:
+  - "Repasamos los streams de los días 3, 8, 10, 14 y 17 de noviembre y no apareció ningún libro nuevo para el mapa."
+  - "Sumamos citas con el minuto exacto a 11 libros que ya estaban, entre ellos Sapiens, Superintelligence y Algorithms Illuminated."
+  - "Dager dice que CLRS es mala primera lectura de algoritmos y que conviene arrancar por Algorithms Illuminated."
