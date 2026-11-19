@@ -25,6 +25,11 @@ sources:
     title: "¿Y SI EL PROBLEMA SOS VOS? (y otras cosas)"
     timestamp: "0:35:46"
     quote: "principio de economía de Mankiw también, introductorio a la economía"
+  - url: "https://www.youtube.com/watch?v=ehYOvblMCIE&t=9730s"
+    title: "ESTO NO CAMBIA NADA (y otras cosas) | !discord !falopa !links"
+    timestamp: "162:10"
+    quote: "El caso de de los alquileres es un caso igual de manual, de creo que Manky está específicamente ese ejemplo"
+    stance: "mentions"
 leadsTo: ["free-to-choose", "kobra-effekt", "essay-on-the-principle-of-population", "the-general-theory", "the-voluntary-city"]
 isbn: "9780030982385"
 asin:
