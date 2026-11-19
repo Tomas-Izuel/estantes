@@ -27,6 +27,21 @@ sources:
     title: "¿Qué es un algoritmo y por qué debería importarte? | Te lo explico así nomás."
     timestamp: "4:14"
     quote: "mucho más copado que introductions que es el libro que se suele recomendar"
+  - url: "https://www.youtube.com/watch?v=sbRY28OcuIQ&t=2574s"
+    title: "EL FIN DEL MUNDO (y otras cosas) | !discord !falopa !links"
+    timestamp: "0:42:54"
+    quote: "No, no, ese es CLRS."
+    stance: "mixed"
+  - url: "https://www.youtube.com/watch?v=sbRY28OcuIQ&t=2620s"
+    title: "EL FIN DEL MUNDO (y otras cosas) | !discord !falopa !links"
+    timestamp: "0:43:40"
+    quote: "No lo recomiendo. Nunca. Como introducción es es mala."
+    stance: "mixed"
+  - url: "https://www.youtube.com/watch?v=sbRY28OcuIQ&t=2628s"
+    title: "EL FIN DEL MUNDO (y otras cosas) | !discord !falopa !links"
+    timestamp: "0:43:48"
+    quote: "Es un libro fenomenal, pero no creo que sea un libro introductorio para alguien tonto como yo."
+    stance: "mixed"
 leadsTo:
   - id: concrete-mathematics
     gap:

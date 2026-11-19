@@ -21,6 +21,11 @@ sources:
     title: "¿Estamos en una simulación?"
     timestamp: "2:20"
     quote: "el mismo que escribió el hermoso libro Super Intelligence"
+  - url: "https://www.youtube.com/watch?v=sbRY28OcuIQ&t=5278s"
+    title: "EL FIN DEL MUNDO (y otras cosas) | !discord !falopa !links"
+    timestamp: "1:27:58"
+    quote: "me acuerdo, en el en el hermoso libro de de Bostrom, Superintelligence,"
+    stance: "recommends"
 leadsTo:
   - id: the-off-switch-game
     gap:

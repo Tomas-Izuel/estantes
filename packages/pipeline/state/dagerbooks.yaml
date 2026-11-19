@@ -130,6 +130,14 @@ sources:
     url: https://www.youtube.com/watch?v=-Ftx5IjIIK0
     status: extracted
     at: 2026-10-12
+  - id: -goM8v3gJ5U
+    platform: youtube
+    channel: DagerClips
+    title: Discord cambia a Rust y DOMA a TODOS.
+    duration: 1050
+    url: https://www.youtube.com/watch?v=-goM8v3gJ5U
+    status: discovered
+    at: 2026-11-19
   - id: -gZ_szjtEcI
     platform: youtube
     channel: DagerClips
@@ -316,6 +324,13 @@ sources:
     url: https://www.youtube.com/watch?v=0Xg6gnwacA0
     status: extracted
     at: 2026-10-12
+  - id: 0yV80ROW9TA
+    platform: youtube
+    channel: DotDager
+    title: HUMANO VS. TERMINATOR.
+    url: https://www.youtube.com/shorts/0yV80ROW9TA
+    status: discovered
+    at: 2026-11-19
   - id: 129JUyn4LIs
     platform: youtube
     channel: ElAntroDeDager
@@ -522,6 +537,14 @@ sources:
     url: https://www.youtube.com/watch?v=38_SxJgMR2U
     status: extracted
     at: 2026-10-12
+  - id: 397odESMMvg
+    platform: youtube
+    channel: DagerClips
+    title: El libro que demuestra que no tenés que obligar a nadie a ayudar.
+    duration: 890
+    url: https://www.youtube.com/watch?v=397odESMMvg
+    status: discovered
+    at: 2026-11-19
   - id: 3EYUVq083a4
     platform: youtube
     channel: DotDager
@@ -650,6 +673,14 @@ sources:
     url: https://www.youtube.com/shorts/4KS9wNywFyY
     status: extracted
     at: 2026-10-12
+  - id: 5-M2_5klHu4
+    platform: youtube
+    channel: DagerClips
+    title: ¿Pirate Software argentino?
+    duration: 523
+    url: https://www.youtube.com/watch?v=5-M2_5klHu4
+    status: discovered
+    at: 2026-11-19
   - id: 5aapaPFCB8Q
     platform: youtube
     channel: DotDager
@@ -956,6 +987,13 @@ sources:
     url: https://www.youtube.com/shorts/8fngZO3juZo
     status: discovered
     at: 2026-10-12
+  - id: 8k0kJDz_2CY
+    platform: youtube
+    channel: DotDager
+    title: Dager, pasame tu API key para ver algo.
+    url: https://www.youtube.com/shorts/8k0kJDz_2CY
+    status: discovered
+    at: 2026-11-19
   - id: 8kC98KmkiOw
     platform: youtube
     channel: DagerClips
@@ -1238,6 +1276,14 @@ sources:
     url: https://www.youtube.com/shorts/arn48Q-oRuo
     status: discovered
     at: 2026-10-12
+  - id: avzvrDtkqW0
+    platform: youtube
+    channel: DagerClips
+    title: Gemini pone a Reddit en aprietos.
+    duration: 656
+    url: https://www.youtube.com/watch?v=avzvrDtkqW0
+    status: discovered
+    at: 2026-11-19
   - id: AxGMR77tAb4
     platform: youtube
     channel: DagerClips
@@ -1277,6 +1323,14 @@ sources:
     url: https://www.youtube.com/watch?v=b5Yq1H_MdWc
     status: discovered
     at: 2026-10-12
+  - id: B7fm6sCRJOo
+    platform: youtube
+    channel: DagerClips
+    title: ¿Son las empresas muy exigentes con lo que piden?
+    duration: 1097
+    url: https://www.youtube.com/watch?v=B7fm6sCRJOo
+    status: discovered
+    at: 2026-11-19
   - id: B8pPtXw2G1s
     platform: youtube
     channel: DotDager
@@ -1614,6 +1668,13 @@ sources:
     url: https://www.youtube.com/shorts/cnMA3cuTSM4
     status: discovered
     at: 2026-11-03
+  - id: crYU_3i7Mig
+    platform: youtube
+    channel: DotDager
+    title: Recomiendo música.
+    url: https://www.youtube.com/shorts/crYU_3i7Mig
+    status: discovered
+    at: 2026-11-19
   - id: CSoRjITKPLU
     platform: youtube
     channel: DagerClips
@@ -1654,6 +1715,13 @@ sources:
     url: https://www.youtube.com/watch?v=CYglM-Rg5_Y
     status: merged
     at: 2026-10-12
+  - id: CZ0Z4GQrObQ
+    platform: youtube
+    channel: DotDager
+    title: CÓMO CONSEGUIR DESCUENTO 100% REAL NO FAKE
+    url: https://www.youtube.com/shorts/CZ0Z4GQrObQ
+    status: discovered
+    at: 2026-11-19
   - id: Cz4k0BzkGe0
     platform: youtube
     channel: DagerClips
@@ -1973,6 +2041,22 @@ sources:
     url: https://www.youtube.com/watch?v=EHWK9XA_kck
     status: discovered
     at: 2026-10-12
+  - id: ehYOvblMCIE
+    platform: youtube
+    channel: DotDager
+    title: ESTO NO CAMBIA NADA (y otras cosas) | !discord !falopa !links
+    duration: 15826
+    url: https://www.youtube.com/watch?v=ehYOvblMCIE
+    status: merged
+    at: 2026-11-19
+  - id: EIEkmPB5rvQ
+    platform: youtube
+    channel: DotDager
+    title: EL FIN DEL COMIENZO (y otras cosas) | !discord !falopa !links
+    duration: 11385
+    url: https://www.youtube.com/watch?v=EIEkmPB5rvQ
+    status: extracted
+    at: 2026-11-19
   - id: eIEytaoKdo0
     platform: youtube
     channel: DotDager
@@ -2066,9 +2150,10 @@ sources:
   - id: eQfnfDcY7oU
     platform: youtube
     channel: DotDager
-    title: ME VUELVO PERONISTA con @pelavision- |  !discord !falopa !links
+    title: ME VUELVO PERONISTA con @pelavision-  |  !discord !falopa !links
+    duration: 9701
     url: https://www.youtube.com/watch?v=eQfnfDcY7oU
-    status: discovered
+    status: merged
     at: 2026-11-03
   - id: EqoIECOT0X0
     platform: youtube
@@ -2407,6 +2492,13 @@ sources:
     url: https://www.youtube.com/watch?v=Fz2Q_zZ3Fd4
     status: merged
     at: 2026-10-12
+  - id: G_g5iNsV_U4
+    platform: youtube
+    channel: DotDager
+    title: El punto dulce de usar IA
+    url: https://www.youtube.com/shorts/G_g5iNsV_U4
+    status: discovered
+    at: 2026-11-19
   - id: G1Ij0lDptHQ
     platform: youtube
     channel: DagerClips
@@ -2843,6 +2935,13 @@ sources:
     url: https://www.youtube.com/watch?v=HTODyt11CVQ
     status: discovered
     at: 2026-10-22
+  - id: HzaiJY1proo
+    platform: youtube
+    channel: DotDager
+    title: ¿Qué pasó con Devin?
+    url: https://www.youtube.com/shorts/HzaiJY1proo
+    status: discovered
+    at: 2026-11-19
   - id: hZf8Af62JrE
     platform: youtube
     channel: ElAntroDeDager
@@ -3035,6 +3134,13 @@ sources:
     url: https://www.youtube.com/shorts/j5Z5BWvn6-4
     status: discovered
     at: 2026-10-12
+  - id: Jc_ryYYkA2Y
+    platform: youtube
+    channel: DotDager
+    title: La VERDAD sobre las PIRÁMIDES
+    url: https://www.youtube.com/shorts/Jc_ryYYkA2Y
+    status: discovered
+    at: 2026-11-19
   - id: jCqZLJcw76U
     platform: youtube
     channel: DotDager
@@ -3298,6 +3404,13 @@ sources:
     url: https://www.youtube.com/watch?v=kOyk-C3dpjk
     status: extracted
     at: 2026-10-12
+  - id: kqg6l3g4j-8
+    platform: youtube
+    channel: DotDager
+    title: Seniors vs. vibecoders
+    url: https://www.youtube.com/shorts/kqg6l3g4j-8
+    status: discovered
+    at: 2026-11-19
   - id: KQjHBPEi9Uk
     platform: youtube
     channel: DagerClips
@@ -3528,6 +3641,14 @@ sources:
     url: https://www.youtube.com/watch?v=lXJzahJ_HI0
     status: merged
     at: 2026-10-12
+  - id: M-NgLVXSOHY
+    platform: youtube
+    channel: DagerClips
+    title: Cuidado con lo que documentes en tu trabajo.
+    duration: 722
+    url: https://www.youtube.com/watch?v=M-NgLVXSOHY
+    status: discovered
+    at: 2026-11-19
   - id: m11VcsEDKiI
     platform: youtube
     channel: DotDager
@@ -3608,6 +3729,13 @@ sources:
     url: https://www.youtube.com/watch?v=MikKYw8X1II
     status: discovered
     at: 2026-10-12
+  - id: Mk3B_ug62u0
+    platform: youtube
+    channel: DotDager
+    title: El futuro de la programación.
+    url: https://www.youtube.com/shorts/Mk3B_ug62u0
+    status: discovered
+    at: 2026-11-19
   - id: MKxyfmbv7q0
     platform: youtube
     channel: DagerClips
@@ -3723,6 +3851,14 @@ sources:
     url: https://www.youtube.com/watch?v=N_KWeLiYIkQ
     status: extracted
     at: 2026-10-12
+  - id: N42qPzORPCM
+    platform: youtube
+    channel: DagerClips
+    title: Microslop vuelve a atacar.
+    duration: 560
+    url: https://www.youtube.com/watch?v=N42qPzORPCM
+    status: discovered
+    at: 2026-11-19
   - id: n5bFvp2zQA4
     platform: youtube
     channel: DotDager
@@ -3970,10 +4106,17 @@ sources:
     url: https://www.youtube.com/shorts/NZ1DyQmgzv4
     status: extracted
     at: 2026-10-12
+  - id: NzAYyWaOxKM
+    platform: youtube
+    channel: DotDager
+    title: El arte de la patamuslo.
+    url: https://www.youtube.com/shorts/NzAYyWaOxKM
+    status: discovered
+    at: 2026-11-19
   - id: o_s6Q-teA6U
     platform: youtube
     channel: DotDager
-    title: Hoy es MARTES y este video lo sabe.
+    title: Hoy es JUEVES y este video lo sabe.
     duration: 500
     url: https://www.youtube.com/watch?v=o_s6Q-teA6U
     status: merged
@@ -4480,6 +4623,14 @@ sources:
     url: https://www.youtube.com/watch?v=PvlWX_AY3Ug
     status: merged
     at: 2026-10-12
+  - id: PzF9vqxR5Rs
+    platform: youtube
+    channel: DotDager
+    title: ⚠ HARRY SE ESTÁ HACKEANDO TODO (y otras cosas) | !discord !falopa !links
+    duration: 10122
+    url: https://www.youtube.com/watch?v=PzF9vqxR5Rs
+    status: extracted
+    at: 2026-11-19
   - id: q-tw6miWOtw
     platform: youtube
     channel: DagerClips
@@ -4496,6 +4647,13 @@ sources:
     url: https://www.youtube.com/watch?v=Q3R_q8HMCqo
     status: extracted
     at: 2026-10-12
+  - id: q50HACIduqo
+    platform: youtube
+    channel: DotDager
+    title: El PEOR error en ENTREVISTAS LABORALES.
+    url: https://www.youtube.com/shorts/q50HACIduqo
+    status: discovered
+    at: 2026-11-19
   - id: q8ttiG4yih0
     platform: youtube
     channel: DotDager
@@ -4613,7 +4771,7 @@ sources:
   - id: QveCZkg7p-0
     platform: youtube
     channel: DagerClips
-    title: Tengo mucho miedo.
+    title: Los caidos de la burbuja de 2019.
     duration: 715
     url: https://www.youtube.com/watch?v=QveCZkg7p-0
     status: discovered
@@ -4886,6 +5044,14 @@ sources:
     url: https://www.youtube.com/shorts/SajhLvs14WM
     status: extracted
     at: 2026-10-12
+  - id: sbRY28OcuIQ
+    platform: youtube
+    channel: DotDager
+    title: EL FIN DEL MUNDO (y otras cosas) | !discord !falopa !links
+    duration: 13402
+    url: https://www.youtube.com/watch?v=sbRY28OcuIQ
+    status: merged
+    at: 2026-11-19
   - id: sCTG_T3lJ10
     platform: youtube
     channel: DagerClips
@@ -5145,6 +5311,14 @@ sources:
     url: https://www.youtube.com/watch?v=t6w71ApsNa0
     status: discovered
     at: 2026-10-12
+  - id: T8X2geiFTT8
+    platform: youtube
+    channel: DagerClips
+    title: La burbuja de la IA es PEOR de lo que pensás.
+    duration: 1461
+    url: https://www.youtube.com/watch?v=T8X2geiFTT8
+    status: discovered
+    at: 2026-11-19
   - id: TcOsGIrudMA
     platform: youtube
     channel: DotDager
@@ -5160,6 +5334,14 @@ sources:
     url: https://www.youtube.com/shorts/tcxLMQnZNio
     status: extracted
     at: 2026-10-12
+  - id: TdMPC0HQEPA
+    platform: youtube
+    channel: DagerClips
+    title: Los intendentes están hasta las manos.
+    duration: 794
+    url: https://www.youtube.com/watch?v=TdMPC0HQEPA
+    status: discovered
+    at: 2026-11-19
   - id: tE1383kbmKI
     platform: youtube
     channel: DagerClips
@@ -5168,6 +5350,13 @@ sources:
     url: https://www.youtube.com/watch?v=tE1383kbmKI
     status: extracted
     at: 2026-10-12
+  - id: Tf2YXAJ7OZY
+    platform: youtube
+    channel: DotDager
+    title: Impuesto a la línea de código.
+    url: https://www.youtube.com/shorts/Tf2YXAJ7OZY
+    status: discovered
+    at: 2026-11-19
   - id: Tf3_XSWLO9g
     platform: youtube
     channel: DagerClips
@@ -5183,6 +5372,14 @@ sources:
     url: https://www.youtube.com/shorts/tFslY05hJZg
     status: extracted
     at: 2026-10-12
+  - id: tFZXl0EMLoc
+    platform: youtube
+    channel: DagerClips
+    title: El bajista argentino que ENGAÑO a TODOS.
+    duration: 2551
+    url: https://www.youtube.com/watch?v=tFZXl0EMLoc
+    status: discovered
+    at: 2026-11-19
   - id: tG3wvprMfBA
     platform: youtube
     channel: DagerClips
@@ -5664,6 +5861,13 @@ sources:
     url: https://www.youtube.com/watch?v=VMM-OHb4qVA
     status: extracted
     at: 2026-10-12
+  - id: VPtXv5OxDKI
+    platform: youtube
+    channel: DotDager
+    title: Ingeniería inversa para todos
+    url: https://www.youtube.com/shorts/VPtXv5OxDKI
+    status: discovered
+    at: 2026-11-19
   - id: VqW69KPS7Gc
     platform: youtube
     channel: DotDager
@@ -6068,6 +6272,13 @@ sources:
     url: https://www.youtube.com/watch?v=xrZrvd--xyk
     status: extracted
     at: 2026-10-12
+  - id: XsM00Nt-RnA
+    platform: youtube
+    channel: DotDager
+    title: El acabado...
+    url: https://www.youtube.com/shorts/XsM00Nt-RnA
+    status: discovered
+    at: 2026-11-19
   - id: XuhoU51X4ZE
     platform: youtube
     channel: DagerClips
@@ -6161,6 +6372,13 @@ sources:
     url: https://www.youtube.com/shorts/Y24asRQZ3P8
     status: extracted
     at: 2026-10-12
+  - id: y4EpyEKCnak
+    platform: youtube
+    channel: DotDager
+    title: Trump es tucumano
+    url: https://www.youtube.com/shorts/y4EpyEKCnak
+    status: discovered
+    at: 2026-11-19
   - id: y6dCAopMQ4I
     platform: youtube
     channel: DotDager
@@ -6489,6 +6707,14 @@ sources:
     url: https://www.youtube.com/shorts/zHowe46ZdbM
     status: extracted
     at: 2026-10-12
+  - id: zIBttCjUIWs
+    platform: youtube
+    channel: DagerClips
+    title: Si tenés RAM en tu PC sos un criminal, mejor dásela a OpenAI.
+    duration: 1523
+    url: https://www.youtube.com/watch?v=zIBttCjUIWs
+    status: discovered
+    at: 2026-11-19
   - id: zjGBJfrZHXc
     platform: youtube
     channel: DagerClips
